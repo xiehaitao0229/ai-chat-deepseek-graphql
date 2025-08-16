@@ -1,0 +1,11 @@
+name = "deepseek-graphql-worker"
+main = "src/index.js"
+compatibility_date = "2025-08-09"
+
+# 生产环境配置
+[env.production]
+name = "deepseek-graphql-worker-prod"
+
+# 开发环境配置  
+[env.dev]
+name = "deepseek-graphql-worker-dev"

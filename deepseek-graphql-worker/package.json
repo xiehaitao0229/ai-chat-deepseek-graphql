@@ -1,0 +1,14 @@
+{
+  "name": "deepseek-graphql-worker",
+  "version": "1.0.0",
+  "description": "DeepSeek API GraphQL Worker",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240620.0"
+  }
+}
